@@ -11,10 +11,10 @@ open class NewsData(
     var urlToImage: String = "",
     var publishedAt: String = "",
     var content: String = ""
-)  : RealmObject()
+): RealmObject()
 
 open class SourceData(
     var id: String = "",
     var name: String = ""
-) : RealmObject()
+): RealmObject()
 
